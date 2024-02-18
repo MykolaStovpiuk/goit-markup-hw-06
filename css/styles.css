@@ -867,9 +867,6 @@ letter-spacing: 0.02em;
 color: #ffffff;
 }
 
-.footer-bottom-custom {
-    /* margin: 0 auto; */
-}
 
 .form-input-footer {
 border: 1px solid #fff;
@@ -902,7 +899,7 @@ color: #fff;
 }
 
 .footer-bottom-input {
-    /* width: 264px; */
+
     width: 288px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -1226,13 +1223,24 @@ width: calc((100% - 72px) / 4);
 }
 
 .footer-custom {
-width: 1440px;
-height: 312px;
-padding: 100px 0;
+    width: 1440px;
+    height: 312px;
+    padding: 100px 0;
+    display: flex;
 }
 
-.footer-div {
-    margin-right: 120px;
+
+
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .footer-bottom-custom {
+        margin: 0 auto;
+    }
+    .footer-bottom-input {
+   width: 264px;
     }
 }
 
